@@ -24,7 +24,7 @@ jobs:
           source .venv/bin/activate
           pip install --upgrade pip
           pip install ruff pytest flask
-          # si tu as d'autres dépendances, ajoute-les ici
+
 
       - name: Run Ruff
         run: |
